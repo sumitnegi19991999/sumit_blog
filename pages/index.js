@@ -10,7 +10,7 @@ export default function Home({ posts }) {
         <title>Sumit Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <FeaturedPosts /> */}
+      <FeaturedPosts />
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
         <div className="col-span-1 lg:col-span-8">
           {posts.map((post) => (
